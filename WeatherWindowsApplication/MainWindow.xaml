@@ -1,0 +1,42 @@
+﻿<Window x:Class="WeatherWindowsApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherWindowsApplication"
+        mc:Ignorable="d"
+        Title="Wheather Application" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Image>
+
+            </Image>
+        </Grid>
+        <Button Margin="346,366,302,26" Width="NaN" RenderTransformOrigin="0.467,0.525">
+            Check wather forecast
+        </Button>
+        <Button Margin="346,306,302,86" Width="NaN" Height="NaN">
+            Check current climate
+        </Button>
+        <TextBox x:Name="TextBoxCityInput" Height="NaN" Margin="272,233,228,163" Width="NaN">
+
+        </TextBox>
+        <Image x:Name="ImageDayOne" Height="NaN" Margin="12,80,643,248" Width="NaN">
+
+        </Image>
+        <Image x:Name="ImageDayTwo" Margin="204,85,460,255" Width="NaN" Height="NaN">
+
+        </Image>
+
+        <Image x:Name="ImageDayThree" Height="NaN" Margin="368,86,324,255" Width="NaN">
+            
+        </Image>
+        <Image x:Name="ImageDayFour" Height="NaN" Margin="490,90,194,260" Width="NaN">
+            
+        </Image>
+        <Image x:Name="ImageDayFive" Height="NaN" Margin="618,82,51,252" Width="NaN">
+            
+        </Image>
+
+    </Grid>
+</Window>
