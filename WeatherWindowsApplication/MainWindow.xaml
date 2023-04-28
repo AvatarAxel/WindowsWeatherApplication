@@ -12,31 +12,50 @@
 
             </Image>
         </Grid>
-        <Button Margin="346,366,302,26" Width="NaN" RenderTransformOrigin="0.467,0.525">
-            Check wather forecast
+        <Button Margin="324,368,324,24" Width="NaN" RenderTransformOrigin="0.467,0.525"  Click="Button_ClickForest">
+            wather forecast
         </Button>
-        <Button Margin="346,306,302,86" Width="NaN" Height="NaN">
-            Check current climate
+        <Button Margin="324,304,324,87" Width="NaN" Height="NaN" Click="Button_Click">
+           current wheater
         </Button>
-        <TextBox x:Name="TextBoxCityInput" Height="NaN" Margin="272,233,228,163" Width="NaN">
+        <TextBox x:Name="TextBoxCityInput" Height="NaN" Margin="292,230,292,161" Width="NaN" MaxLength="30">
 
         </TextBox>
-        <Image x:Name="ImageDayOne" Height="NaN" Margin="12,80,643,248" Width="NaN">
+        <Image x:Name="ImageDayOne" Height="NaN" Margin="40,30,650,310" Width="NaN">
 
         </Image>
-        <Image x:Name="ImageDayTwo" Margin="204,85,460,255" Width="NaN" Height="NaN">
+        <Image x:Name="ImageDayTwo" Margin="201,30,491,310" Width="NaN" Height="NaN">
 
         </Image>
 
-        <Image x:Name="ImageDayThree" Height="NaN" Margin="368,86,324,255" Width="NaN">
+        <Image x:Name="ImageDayThree" Height="NaN" Margin="346,30,346,310" Width="NaN">
             
         </Image>
-        <Image x:Name="ImageDayFour" Height="NaN" Margin="490,90,194,260" Width="NaN">
+        <Image x:Name="ImageDayFour" Height="NaN" Margin="496,30,196,310" Width="NaN">
             
         </Image>
-        <Image x:Name="ImageDayFive" Height="NaN" Margin="618,82,51,252" Width="NaN">
+        <Image x:Name="ImageDayFive" Height="NaN" Margin="634,30,58,310" Width="NaN">
             
         </Image>
 
+        <Label x:Name="LabelDayOne" Margin="38,140,648,231">
+            Day one
+        </Label>
+
+        <Label x:Name="LabelDayTwo" Margin="210,135,489,231">
+            Day two
+        </Label>
+
+        <Label x:Name="LabelDayThree" Margin="346,135,340,231">
+            Day three
+        </Label>
+
+        <Label x:Name="LabelDayFour" Margin="491,135,191,231">
+            Day four
+        </Label>
+
+        <Label x:Name="LabelDayFive" Margin="638,135,59,231">
+            Day five
+        </Label>
     </Grid>
 </Window>
